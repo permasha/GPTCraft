@@ -1,0 +1,22 @@
+name: GPTCraft
+version: '${project.version}'
+main: dev.permasha.gptcraft.GPTCraft
+api-version: 1.16
+commands:
+  ask:
+    description: Use for get question from ChatGPT
+  nextconversation:
+    description: Go to the next conversation, or start a new conversation with the model.
+  setconversation:
+    description: to set the conversation with the model to a specific conversation.
+  listconversations:
+    description: to list all the conversations you have had with the model.
+permissions:
+  gptcraft.ask:
+    description: Use ask command
+  gptcraft.nextconversation:
+    description: Use nextconversation command
+  gptcraft.setconversation:
+    description: Use setconversation command
+  gptcraft.listconversations:
+    description: Use listconversations command
